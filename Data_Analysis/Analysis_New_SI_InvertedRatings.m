@@ -1,8 +1,10 @@
-%% This script is for processing the data of NEW STIMULI TEMPORAL CIRCLE
+%% This script is for processing the data of the following experiment: 
+% Sequential Display, New Stimulus Set (Maximally holistic)
 clear;
 close all;
 clc;
 
+% 11 subjects
 for sub = 1:11
     cd DATA_Spatial
     load(['Result_',num2str(sub),'.mat']);
@@ -26,7 +28,7 @@ for sub = 1:11
     fn4 = 151:200;
     fn5 = 201:250;
     fn6 = 251:300;
-    
+    %% Correlation between upright responses and upright ratings;
     Corr_U = [regression(UP_MW(fn1),UP_Res(fn1)),regression(UP_MW(fn2),UP_Res(fn2)),...
         regression(UP_MW(fn3),UP_Res(fn3)),regression(UP_MW(fn4),UP_Res(fn4))...
         regression(UP_MW(fn5),UP_Res(fn5)),regression(UP_MW(fn6),UP_Res(fn6))];
