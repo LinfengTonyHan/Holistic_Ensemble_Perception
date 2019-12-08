@@ -18,4 +18,5 @@ for ite = 1:SUB
   SLOPE_UPR(ite) = slope_upr;
 end
 
+%paired-sample t-test
 [h,p,CI,stats] = ttest(SLOPE_UPR,SLOPE_INV);
