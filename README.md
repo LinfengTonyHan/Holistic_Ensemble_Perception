@@ -1,6 +1,6 @@
 # Holistic_Ensemble_Perception
 
-This repository contains the project codes written by Linfeng Han for the project **Holistic Ensemble Perception** (in remote collaboration with Dr. Allison Yamanashi Leib and Dr. David Whitney at Dept. of Psychology, UC Berkeley.
+This repository contains the project codes written by Linfeng Han for the project **Holistic Ensemble Perception** (in remote collaboration with Dr. Allison Yamanashi Leib and Dr. David Whitney at the Dept. of Psychology, UC Berkeley.
 
 Two sets of experiments were conducted. Experiment 1 was conducted online (Amazon M-turk).
 
